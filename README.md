@@ -1,4 +1,4 @@
-# Advent of Code Solutions 🎄
+# ❄️ Advent of Code Solutions ❄️
 
 A repositiory to store my solutions to the annual advent of code puzzles. All of my solutions are written in Python.
 
