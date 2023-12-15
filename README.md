@@ -1,5 +1,3 @@
 # Advent of Code Solutions 🎄
 
-A repositiory to store my solutions to advent of code.
-
-🐍 My solutions are written in Python.
+A repositiory to store my solutions to advent of code. All of my solutions are written in Python 🐍.
