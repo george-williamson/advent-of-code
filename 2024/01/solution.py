@@ -14,10 +14,15 @@ for i in range(number_of_pairs):
 
 print(f"Part 1: {sum_of_distances}")
 
-left_counts = defaultdict(int)
 right_counts = defaultdict(int)
 
-
 for i in range(number_of_pairs):
-    if i in left_counts: left_counts[i] += 1
-    else: left_counts[i] = 1
+    if right[i] in right_counts: right_counts[right[i]] +=1
+    else: right_counts[right[i]] = 1
+
+similarity_score = 0
+for i in range(len(left)):
+    if left[i] in right_counts: 
+        similarity_score += (left[i]*(right_counts[left[i]]))
+
+print(f"Part 2: {similarity_score}")
