@@ -20,6 +20,7 @@ for r in reports:
     for l in range(2, len(r)):
         delta = r[l] - r[l-1]
         
+        # Set starting condition if we skipped the first number
         if increasing is None:
             if 1 <= delta <= 3: 
                 increasing = True
