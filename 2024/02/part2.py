@@ -30,7 +30,7 @@ for r in reports:
                 count -= 1
                 break
         
-		# Continue as in part 1
+        # Continue as in part 1
         if ((1 <= delta <= 3) and increasing) or ((-3 <= delta <= -1) and not increasing):
            continue
         else:
